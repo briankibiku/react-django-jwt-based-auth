@@ -14,9 +14,9 @@ NB dedicated port for frontend is 3000
 ### The backend using docker
 1. cd to backend folder
 2. run ```sudo docker-compose build```
-3. run ```sudo docker-compose build```
+3. run ```sudo docker-compose up```
 
-Access app on port 8001
+Access app on port 8000
 ### The backend the normal way
 1. run ```pip install -r requirements.txt```
 2. cd to backend folder
