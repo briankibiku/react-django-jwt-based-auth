@@ -8,7 +8,7 @@
 2. run ```npm install``
 3. run ```npm start```
 
-NB dedicated port for frontend is 3000
+Access frontend http://localhost:3000/
 
 
 ### The backend using docker
@@ -16,7 +16,7 @@ NB dedicated port for frontend is 3000
 2. run ```sudo docker-compose build```
 3. run ```sudo docker-compose up```
 
-Access app on port 8000
+Access app on http://localhost:8000/
 ### The backend the normal way
 1. run ```pip install -r requirements.txt```
 2. cd to backend folder
@@ -24,6 +24,6 @@ Access app on port 8000
 4. run ```python manage.py createsuperuser```
 5. run ```python manage.py runserver```
 
-NB dedicated port for backend is 8000
+Access app on http://localhost:8000/
 
 From there open the frontend app on your browser and start updating tasks
